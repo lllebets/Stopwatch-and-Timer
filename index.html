@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link href="https://allfont.ru/allfont.css?fonts=digital-7-mono" rel="stylesheet" type="text/css" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Timer and Stopwatch</title>
+  <link rel="stylesheet" href="./style/style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="wrapper_headerClockDate">
+      <div class="headerDate"></div>
+      <div class="headerClock"></div>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrapper_stopwatch">
+      <div class="stopwatch_StartBatton">
+        <div class="stopwatchStart">
+          <p id="hours">00</p>
+          :
+          <p id="minutes">00</p>
+          :
+          <p id="seconds">00</p>
+        </div>
+        <div class="stopwatchBatton">
+          <button class="btn start1">start</button>
+          <button class="btn loop1">loop</button>
+          <button class="btn stop1">stop</button>
+          <button class="btn rest1">rest</button>
+        </div>
+      </div>
+      <div class="stopwatch_check"></div>
+    </div>
+    <div class="wrapper_timer">
+      <div class="timer_StartAdd">
+        <div class="timer_Start">
+          <p class="timer_namber">0</p>
+          <p class="timer_text">MINUTES</p>
+        </div>
+        <div class="timer_Add">
+          <button class="btn add">+</button>
+          <button class="btn minus">-</button>
+        </div>
+      </div>
+      <div class="timer_CheckBatton">
+        <div class="timer_Check">
+          <p id="minutes_timer">00</p>
+          :
+          <p id="seconds_temer">00</p>
+        </div>
+        <div class="timer_Batton">
+          <button class="btn start2">start</button>
+          <button class="btn stop2">stop</button>
+          <button class="btn rest2">rest</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

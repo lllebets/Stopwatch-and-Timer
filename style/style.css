@@ -1,0 +1,178 @@
+@font-face {
+  font-family: "Digital";
+  src: url("./fonts/digital-7\(mono\).ttf") format("woff2");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(0, 3, 20);
+  font-family: "Digital", sans-serif;
+  color: rgb(1, 109, 145);
+}
+
+.wrapper_headerClockDate {
+  width: 90%;
+  height: 30vh;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.headerDate {
+  width: 30%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 40px;
+}
+
+.headerClock {
+  width: 40%;
+  height: 18vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 90px;
+}
+
+.wrapper_stopwatch {
+  margin: 15px 0;
+  width: 90%;
+  height: 30vh;
+  margin: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+.stopwatch_StartBatton {
+  width: 45%;
+  height: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.stopwatchStart {
+  width: 60%;
+  height: 13vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+}
+
+.stopwatchBatton {
+  width: 70%;
+  height: 4vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn {
+  background-color: transparent;
+  border: 2px solid rgb(1, 109, 145);
+  border-radius: 3px;
+  width: 23%;
+  height: 100%;
+  color: rgb(1, 109, 145);
+  font-family: "Digital", sans-serif;
+  font-weight: bold;
+}
+
+.stopwatch_check {
+  width: 45%;
+  height: 28vh;
+  max-height: 28vh;
+  min-height: 28vh;
+  text-align: center;
+  font-size: 40px;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+}
+
+.wrapper_timer {
+  margin: 15px 0;
+  width: 90%;
+  height: 30vh;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.timer_StartAdd {
+  width: 45%;
+  height: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.timer_Start {
+  width: 20%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.timer_text {
+  font-size: 35px;
+}
+
+.timer_namber {
+  font-size: 70px;
+}
+
+.timer_Add {
+  width: 30%;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.timer_CheckBatton {
+  width: 45%;
+  height: 95%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.timer_Check {
+  width: 45%;
+  height: 55%;
+
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer_Batton {
+  width: 50%;
+  height: 4vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
